@@ -1,0 +1,49 @@
+.head {
+  display: block;
+  background: orange;
+  height: 100px;
+  width: 1830px;
+}
+@media screen and (max-width: 1900px) and (min-width: 1220px) {
+  .head {
+    width: 1220px;
+  }
+}
+@media screen and (max-width: 1220px)  and (min-width: 610px) {
+  .head {
+    width: 610px;
+  }
+}
+@media screen and (max-width: 600px){
+  .head{
+    width: 310px;
+  }
+}
+
+h1, h2, p{
+  font-family: Calibri Light;
+}
+.text1, .text2, .text3 {
+  background: lightgray;
+  display: inline-block;
+  width: 610px;
+  border: none;
+}
+.img {
+display: inline-block;
+}
+@media screen and (max-width: 960px){
+ img {
+  display: block;
+  margin-top: 4px;
+}
+.text1, .text2, .text3 {
+width: 310px;
+display: block;
+margin-top: -20px;
+}
+}
+.head,.text1,.text2, .text3 {
+  margin-left: -4px;
+}
+}

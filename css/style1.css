@@ -1,0 +1,32 @@
+body {
+  background: #f1f1f1;
+}
+header{
+  background: lightgray;
+  height: 100px;
+}
+.head{
+  line-height: 100px;
+}
+a {
+  text-decoration: none;
+  border-bottom: solid 1px lightgray;
+  display: block;
+  width: 200px;
+  height: 25px;
+}
+aside {
+  background: #c4f1ff;
+  float: right;
+  width: 200px;
+}
+.main{
+width: 480px;
+he
+}
+.center {
+}
+nav {
+width: 250px;
+height: 800px;
+}
